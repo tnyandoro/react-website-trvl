@@ -23,3 +23,12 @@ padding: 8px 20px;
 border: 1px solid var(--primary);
 transition: all 0.3s ease-in-out;
 }
+
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 20px;
+}
+
+.btn--large {
+  padding: 12px 20px;
+}
