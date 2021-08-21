@@ -17,7 +17,7 @@ export const Button = ({
     ? buttonStyle
     : STYLES[0];
 
-  const checkButtonSize = SIZES.INCLUDES(buttonSize) 
+  const checkButtonSize = SIZES.includes(buttonSize) 
     ? buttonSize 
     : SIZES[0];
 
