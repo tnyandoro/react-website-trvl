@@ -7,6 +7,15 @@ function Footer() {
         <p className="footer-subscription-heading">
           Join the Adventure newsletter to receive our best deals
         </p>
+        <p className="footer-subscription-text">
+          You can subscribe or unsubscribe at anytime
+        </p>
+        <div className="input-areas">
+          <form>
+            <input type="email" name="email" placeholder="Email" className="footer-input" />
+            <Button buttonStyle='btn--outline'>Subscribe</Button>
+          </form>
+        </div>
       </section>
     </div>
   )
