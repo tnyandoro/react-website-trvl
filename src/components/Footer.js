@@ -22,7 +22,8 @@ function Footer() {
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer link-NavbarItems">
-            
+            <Link to="/sign-up">How it works</Link>
+            <Link to='/'>Testimonials</Link>
           </div>
         </div>
       </div>
