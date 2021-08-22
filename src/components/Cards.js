@@ -1,10 +1,17 @@
 import React from 'react'
+import CardItem from './CardItem'
 
 function Cards() {
   return (
     <div className="card">
     <h1>Check out these epic destinations</h1>
-      
+      <div className="cards_container">
+        <div className="cards_wrapper">
+          <ul className="cards_items">
+            <CardItem />
+          </ul>
+        </div>
+      </div>
     </div>
   )
 }
