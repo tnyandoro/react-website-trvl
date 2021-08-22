@@ -19,6 +19,13 @@ function Footer() {
           </form>
         </div>
       </section>
+      <div className="footer-links">
+        <div className="footer-link-wrapper">
+          <div className="footer link-NavbarItems">
+            
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
