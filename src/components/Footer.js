@@ -1,4 +1,6 @@
 import React from 'react'
+import { Button } from './Button';
+import './Footer.css';
 
 function Footer() {
   return (
